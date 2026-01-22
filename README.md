@@ -3,6 +3,8 @@
 ## Overview
 This project is an advanced recommendation system utilizing machine learning techniques to provide personalized product suggestions. The application is built with Streamlit, offering an interactive interface for exploring different recommendation strategies.
 
+**Live Demo:** [Check out the live application here!](https://kpsr01-infosys-springboard-app-axqvzb.streamlit.app/)
+
 ## Features
 
 ### 1. User & Guest Modes
@@ -36,9 +38,11 @@ The system implements four distinct recommendation approaches:
 
 ## Project Structure
 - `app.py`: Main application entry point and UI logic.
-- `preprocess_data.py`: Data cleaning and preprocessing utilities.
+- `hybrid_approach.py`: Logic for the hybrid recommendation engine combining content and collaborative methods.
 - `content_based_filtering.py`: Logic for content-based recommendation algorithms.
 - `collaborative_based_filtering.py`: Logic for collaborative filtering algorithms.
 - `rating_based_recommendation.py`: Logic for rating/popularity-based recommendations.
+- `preprocess_data.py`: Data cleaning and preprocessing utilities.
 - `evaluation_metrics.py`: Metrics for evaluating model performance.
+- `clean_data.csv`: The processed dataset used by the recommendation engines.
 - `requirements.txt`: Project dependencies.
